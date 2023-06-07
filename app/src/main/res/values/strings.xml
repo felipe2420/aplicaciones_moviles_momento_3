@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">aplicaciones_moviles_momento_3</string>
+    <string name="store_welcome">Bienvenido al CRUD de Productos</string>
+
+    <string name="product_reference">Referencia</string>
+    <string name="product_description">Descripción</string>
+    <string name="product_cost">Costo</string>
+    <string name="product_stock">Existencia</string>
+    <string name="product_iva">IVA</string>
+
+    <string name="btn_create">Guardar</string>
+    <string name="btn_search">Buscar</string>
+    <string name="btn_update">Actualizar</string>
+    <string name="btn_delete">Eliminar</string>
+    <string name="btn_clean">Limpiar</string>
+</resources>

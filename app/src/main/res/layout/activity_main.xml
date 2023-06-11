@@ -3,6 +3,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="#FFFFFF"
     android:padding="10dp"
     tools:context=".MainActivity">
 
@@ -12,19 +13,18 @@
         android:layout_height="200dp"
         android:layout_centerHorizontal="true"
         android:layout_marginTop="10dp"
-        android:src="@drawable/store">
-    </ImageView>
+        android:src="@drawable/store"></ImageView>
 
     <TextView
         android:id="@+id/txtMessage"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="@string/store_welcome"
         android:layout_below="@+id/logo"
-        android:textAlignment="center"
         android:layout_marginTop="10dp"
-        android:textStyle="bold"
-        android:textSize="16dp">
+        android:text="@string/store_welcome"
+        android:textAlignment="center"
+        android:textSize="16dp"
+        android:textStyle="bold">
 
     </TextView>
 
@@ -76,12 +76,12 @@
         android:id="@+id/txtIVA"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text=""
         android:layout_below="@+id/txtStock"
-        android:textAlignment="center"
         android:layout_marginTop="10dp"
-        android:textStyle="bold"
+        android:text=""
+        android:textAlignment="center"
         android:textSize="16sp"
+        android:textStyle="bold"
         android:visibility="gone">
 
     </TextView>
@@ -89,76 +89,71 @@
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:orientation="vertical"
         android:layout_alignParentBottom="true"
         android:layout_marginBottom="10dp"
-        android:gravity="center">
+        android:gravity="center"
+        android:orientation="vertical">
 
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:orientation="horizontal"
             android:layout_marginVertical="10dp"
-            android:gravity="center">
+            android:gravity="center"
+            android:orientation="horizontal">
 
             <Button
                 android:id="@+id/btnSave"
+                style="@style/Widget.AppCompat.Button.Colored"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:background="@color/blue"
                 android:layout_marginHorizontal="5dp"
-                style="@style/Widget.AppCompat.Button.Colored"
-                android:text="@string/btn_create">
-            </Button>
+                android:background="@color/blue"
+                android:text="@string/btn_create"></Button>
 
             <Button
                 android:id="@+id/btnSearch"
+                style="@style/Widget.AppCompat.Button.Colored"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:background="@color/blue"
                 android:layout_marginHorizontal="5dp"
-                style="@style/Widget.AppCompat.Button.Colored"
-                android:text="@string/btn_search">
-            </Button>
+                android:background="@color/blue"
+                android:text="@string/btn_search"></Button>
 
             <Button
                 android:id="@+id/btnClean"
+                style="@style/Widget.AppCompat.Button.Colored"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:background="@color/blue"
                 android:layout_marginHorizontal="5dp"
-                style="@style/Widget.AppCompat.Button.Colored"
-                android:text="@string/btn_clean">
-            </Button>
+                android:background="@color/blue"
+                android:text="@string/btn_clean"></Button>
 
         </LinearLayout>
 
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:orientation="horizontal"
             android:layout_marginVertical="10dp"
-            android:gravity="center">
+            android:gravity="center"
+            android:orientation="horizontal">
 
             <Button
                 android:id="@+id/btnUpdate"
+                style="@style/Widget.AppCompat.Button.Colored"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:background="@color/blue"
                 android:layout_marginHorizontal="10dp"
-                style="@style/Widget.AppCompat.Button.Colored"
-                android:text="@string/btn_update">
-            </Button>
+                android:background="@color/blue"
+                android:text="@string/btn_update"></Button>
 
             <Button
                 android:id="@+id/btnDelete"
+                style="@style/Widget.AppCompat.Button.Colored"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:background="@color/blue"
                 android:layout_marginHorizontal="10dp"
-                style="@style/Widget.AppCompat.Button.Colored"
-                android:text="@string/btn_delete">
-            </Button>
+                android:background="@color/blue"
+                android:text="@string/btn_delete"></Button>
 
         </LinearLayout>
 
